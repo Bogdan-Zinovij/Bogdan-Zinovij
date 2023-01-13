@@ -3,7 +3,7 @@
 <code>💡 [Skills](SKILLS.md)</code>
 <code>🧻 [Projects](PROJECTS.md)</code>
 <code>🧑‍💻 Languages: JavaScript</code>
-<code>📦 Tech stack: Express, Node.js, MySQL/PostgreSQL, Docker</code>
+<code>📦 Tech stack: node.js</code>
 <code>🪙 [Rates](RATES.md)</code><br>
 <code>💬 telegram: [@bzinovoy](https://telegram.me/bzinovoy)</code>
 <code>📫 [bogdanolexandrov@gmail.com](mailto:bogdanolexandrov@gmail.com)</code>
