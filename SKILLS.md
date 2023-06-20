@@ -16,7 +16,7 @@
 | 🟩 heap              | 🟩 for                | 🟩 lambda             | 🟩 stack            | 🟩 complexity        |
 | 🟩 type              | 🟩 for..in            | 🟩 side effects       | 🟩 deque            | 🟩 decomposition     |
 | 🟩 primitive types   | 🟩 for..of            | 🟩 closure            | 🟩 serialization    | 🟩 spaghetti         |
-| 🟩 reference         | 🟨 for await          | 🟩 partial            | 🟩 mixin, extend    | 🟩 silver bullet     |
+| 🟩 reference         | 🟩 for await          | 🟩 partial            | 🟩 mixin, extend    | 🟩 silver bullet     |
 | 🟩 flag              | 🟩 throw              | 🟩 curry              | 🟩 iterator         | ⬜️ not invented here |
 | 🟩 lexical scope     | 🟩 try..catch         | 🟩 chaining           | 🟨 typed arrays     | 🟩 dead code         |
 | 🟩 code block        | 🟩 equality operators | 🟩 higher order       | 🟩 Map              | 🟩 unreachable code  |
@@ -25,7 +25,7 @@
 | 🟩 arrow function    | 🟩 break, continue    | ⬜️ pipe               | ⬜️ Proxy            | 🟩 return early      |
 | 🟩 generator         | 🟩 switch             | 🟩 compose            | ⬜️ Symbol           | 🟩 linter            |
 | 🟩 async function    | 🟩 new Error          | ⬜️ memoize            | 🟩 string parsing   | 🟩 prettier          |
-| 🟩 call, bind, apply |                       | 🟦 factory            | 🟩 timers           | 🟩 unittest          |
+| 🟩 call, bind, apply |                       | 🟩 factory            | 🟩 timers           | 🟩 unittest          |
 | 🟩 Array             |                       | 🟩 pool               | 🟩 EventEmitter     | 🟩 git               |
 | 🟩 instanceof        |                       | 🟩 wrapper            | 🟩 RegExp           | 🟩 github            |
 | 🟩 ...spread         |                       | 🟩 default parameters | 🟨 global           | 🟩 node.js           |
@@ -47,7 +47,7 @@
 | 🟦 Generic programming         | 🟩 Field declarations | 🟦 Trees             |                          |
 | 🟦 Concurrent computing        | 🟩 Inheritance        | 🟩 Graphs            |                          |
 | 🟩 Asyncronous programming     | 🟩 Parent class       | 🟦 Functor           |                          |
-| 🟦 Parallel programming        | 🟩 Polymorphism       | 🟦 Functional object |                          |
+| 🟩 Parallel programming        | 🟩 Polymorphism       | 🟦 Functional object |                          |
 | 🟦 Reactive programming        | 🟩 Abstract class     | ⬜ Monad             |                          |
 | ⬜ FRP (Functional-reactive)   | 🟩 Interface          | 🟩 Generator         |                          |
 | 🟦 Automata-based programming  | 🟩 Encapsulation      | 🟩 Iterator          |                          |
@@ -88,8 +88,8 @@
 | 🟩 Nonblocking I/O   | 🟦 I/O bound tasks           | 🟩 HTTP(S)        | 🟩 Logging       | 🟦 Memory leaks      |
 | 🟩 Event Loop        | 🟦 CPU bound tasks           | 🟦 TCP/SSL        | 🟩 Testing       | 🟦 Resource leaks    |
 | 🟩 commonjs          | 🟦 Memory bound tasks        | 🟦 UDP            | 🟩 CI/CD         | 🟩 Blocking code     |
-| 🟩 ECMA modules      | 🟦 Multilayer approach       | 🟦 TLS            | 🟩 Readable      | 🟩 Data race         |
-| 🟦 Network API       | 🟦 Separation of concerns    | 🟦 Websocket      | 🟩 Writable      | 🟩 Graceful Shutdown |
+| 🟩 ECMA modules      | 🟩 Multilayer approach       | 🟦 TLS            | 🟩 Readable      | 🟩 Data race         |
+| 🟦 Network API       | 🟩 Separation of concerns    | 🟦 Websocket      | 🟩 Writable      | 🟩 Graceful Shutdown |
 | ⬜ Addons            | 🟩 Inversion of control      | ⬜ SSE            | 🟦 Transform     | 🟩 Dependencies      |
 | ⬜ N-API             | 🟩 Dependency injection      | ⬜ HTTP/3 (QUIC)  | ⬜ back pressure |                      |
 | ⬜ Webassembly       | 🟦 GRASP for JS and Node.js  | ⬜ Long polling   | 🟦 Buffer        |                      |
@@ -97,9 +97,9 @@
 | 🟩 node_modules      | 🟦 GoF for JS and Node.js    | 🟦 RPC            | 🟦 Inspector     |                      |
 | 🟩 package.json      | ⬜ Distributed systems       | 🟦 Routing        | 🟦 Reliability   |                      |
 | 🟦 vm isolation      | ⬜ Highload applications     | 🟦 IP sticky      | 🟦 Quality       |                      |
-| 🟩 command line args | 🟦 DDD                       | 🟦 DoS            | 🟦 Availability  |                      |
+| 🟩 command line args | 🟩 DDD                       | 🟦 DoS            | 🟦 Availability  |                      |
 | ⬜ Node.js CLI       | 🟦 Clean architecture        | 🟦 DDoS           | 🟦 Flexibility   |                      |
-| 🟦 Streams           | 🟦 Domain in the middle      | 🟦 XSS            |                  |                      |
+| 🟦 Streams           | 🟩 Domain in the middle      | 🟦 XSS            |                  |                      |
 | 🟦 Clustering        | 🟦 Message Queue             | 🟩 Path traversal |                  |                      |
 | ⬜ Load balancing    | 🟦 Transport-agnostic server | 🟦 CSRF           |                  |                      |
 | ⬜ Serverless clouds | 🟦 Framework-agnostic app    | 🟩 DNS            |                  |                      |
