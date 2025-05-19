@@ -1,4 +1,4 @@
-<code>🎓 Student: KPI / IП-04</code>
+<code>🎓 Student: KPI / IМ-41</code>
 <code>👷 Speciality: Backend</code><br>
 <code>💡 [Skills](SKILLS.md)</code>
 <code>🧻 [Projects](PROJECTS.md)</code>
